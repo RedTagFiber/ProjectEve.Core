@@ -1,0 +1,12 @@
+D:\ProjectEve\code\ProjectEve.Core\ProjectEve.Core\obj\Debug\net10.0\ProjectEve.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectEve\code\ProjectEve.Core\ProjectEve.Core\obj\Debug\net10.0\ProjectEve.Core.AssemblyInfoInputs.cache
+D:\ProjectEve\code\ProjectEve.Core\ProjectEve.Core\obj\Debug\net10.0\ProjectEve.Core.AssemblyInfo.cs
+D:\ProjectEve\code\ProjectEve.Core\ProjectEve.Core\obj\Debug\net10.0\ProjectEve.Core.csproj.CoreCompileInputs.cache
+D:\ProjectEve\code\ProjectEve.Core\ProjectEve.Core\obj\Debug\net10.0\ProjectEve.Core.csproj.AssemblyReference.cache
+D:\ProjectEve\code\ProjectEve.Core\ProjectEve.Core\bin\Debug\net10.0\ProjectEve.Core.deps.json
+D:\ProjectEve\code\ProjectEve.Core\ProjectEve.Core\bin\Debug\net10.0\ProjectEve.Core.dll
+D:\ProjectEve\code\ProjectEve.Core\ProjectEve.Core\bin\Debug\net10.0\ProjectEve.Core.pdb
+D:\ProjectEve\code\ProjectEve.Core\ProjectEve.Core\obj\Debug\net10.0\ProjectEve.Core.dll
+D:\ProjectEve\code\ProjectEve.Core\ProjectEve.Core\obj\Debug\net10.0\refint\ProjectEve.Core.dll
+D:\ProjectEve\code\ProjectEve.Core\ProjectEve.Core\obj\Debug\net10.0\ProjectEve.Core.pdb
+D:\ProjectEve\code\ProjectEve.Core\ProjectEve.Core\obj\Debug\net10.0\ref\ProjectEve.Core.dll

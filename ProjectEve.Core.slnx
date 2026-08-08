@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../ProjectEve_Clean/ProjectEve_Clean/ProjectEve.csproj" />
+  <Project Path="ProjectEve.Core/ProjectEve.Core.csproj" />
+</Solution>
