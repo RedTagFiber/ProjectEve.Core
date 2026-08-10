@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\ProjectEve\\code\\ProjectEve.Core\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3B9DD8B5-3A3C-8A54-247C-7E3A2F7B5CD9}|ProjectEve.Core\\ProjectEve.Core.csproj|d:\\projecteve\\code\\projecteve.core\\projecteve.core\\chat\\qwenttsbakeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B9DD8B5-3A3C-8A54-247C-7E3A2F7B5CD9}|ProjectEve.Core\\ProjectEve.Core.csproj|solutionrelative:projecteve.core\\chat\\qwenttsbakeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3B9DD8B5-3A3C-8A54-247C-7E3A2F7B5CD9}|ProjectEve.Core\\ProjectEve.Core.csproj|d:\\projecteve\\code\\projecteve.core\\projecteve.core\\projecteve.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3B9DD8B5-3A3C-8A54-247C-7E3A2F7B5CD9}|ProjectEve.Core\\ProjectEve.Core.csproj|solutionrelative:projecteve.core\\projecteve.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -34,6 +38,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "QwenTtsBakeService.cs",
+              "DocumentMoniker": "D:\\ProjectEve\\code\\ProjectEve.Core\\ProjectEve.Core\\Chat\\QwenTtsBakeService.cs",
+              "RelativeDocumentMoniker": "ProjectEve.Core\\Chat\\QwenTtsBakeService.cs",
+              "ToolTip": "D:\\ProjectEve\\code\\ProjectEve.Core\\ProjectEve.Core\\Chat\\QwenTtsBakeService.cs",
+              "RelativeToolTip": "ProjectEve.Core\\Chat\\QwenTtsBakeService.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAYwKAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T19:37:00.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ProjectEve.Core.csproj",
               "DocumentMoniker": "D:\\ProjectEve\\code\\ProjectEve.Core\\ProjectEve.Core\\ProjectEve.Core.csproj",
               "RelativeDocumentMoniker": "ProjectEve.Core\\ProjectEve.Core.csproj",
@@ -46,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ProjectEve\\code\\ProjectEve_Clean\\ProjectEve_Clean\\Program.cs",
               "RelativeDocumentMoniker": "..\\ProjectEve_Clean\\ProjectEve_Clean\\Program.cs",
@@ -58,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TtsBakeService.cs",
               "DocumentMoniker": "D:\\ProjectEve\\code\\ProjectEve.Core\\ProjectEve.Core\\Chat\\TtsBakeService.cs",
               "RelativeDocumentMoniker": "ProjectEve.Core\\Chat\\TtsBakeService.cs",
@@ -70,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BrainEveChatService.cs",
               "DocumentMoniker": "D:\\ProjectEve\\code\\ProjectEve.Core\\ProjectEve.Core\\Chat\\BrainEveChatService.cs",
               "RelativeDocumentMoniker": "ProjectEve.Core\\Chat\\BrainEveChatService.cs",

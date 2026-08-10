@@ -11,8 +11,8 @@ public class RealEveChatService : IEveChatService
         Timeout = TimeSpan.FromMinutes(5)
     };
 
-    private const string Model = "dolphin-llama3"; // change if needed
-
+    // change if needed
+    private const string Model = "eve-dialogue";
     public async Task<string> GetReplyAsync(string sessionId, string userMessage)
     {
         try

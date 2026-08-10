@@ -10,3 +10,4 @@ D:\ProjectEve\code\ProjectEve.Core\ProjectEve.Core\obj\Debug\net10.0\ProjectEve.
 D:\ProjectEve\code\ProjectEve.Core\ProjectEve.Core\obj\Debug\net10.0\refint\ProjectEve.Core.dll
 D:\ProjectEve\code\ProjectEve.Core\ProjectEve.Core\obj\Debug\net10.0\ProjectEve.Core.pdb
 D:\ProjectEve\code\ProjectEve.Core\ProjectEve.Core\obj\Debug\net10.0\ref\ProjectEve.Core.dll
+D:\ProjectEve\code\ProjectEve.Core\ProjectEve.Core\obj\Debug\net10.0\ProjectEve.Core.sourcelink.json
