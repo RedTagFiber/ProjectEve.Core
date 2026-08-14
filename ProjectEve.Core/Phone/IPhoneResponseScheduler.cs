@@ -38,6 +38,12 @@ public sealed class PhoneResponseRequest
     /// Number of prior scheduler reconsiderations for this burst.
     /// </summary>
     public int AttemptCount { get; set; }
+
+    /// <summary>
+    /// UX-only signal. True when this player is actively viewing the thread.
+    /// NPC cognition must never receive or infer this value.
+    /// </summary>
+    public bool PlayerActivelyViewingThread { get; set; }
 }
 
 public sealed class PhoneResponseDecision
@@ -47,7 +53,21 @@ public sealed class PhoneResponseDecision
     /// </summary>
     public string Action { get; set; } = "retry_later";
 
+    /// <summary>
+    /// Real wall-clock due time used only to keep the UI responsive.
+    /// </summary>
     public DateTime NextCheckUtc { get; set; } = DateTime.UtcNow;
+
+    /// <summary>
+    /// Authoritative in-world time when this response opportunity exists.
+    /// </summary>
+    public DateTimeOffset NextCheckGameTime { get; set; }
+
+    /// <summary>
+    /// Meaningful in-world delay chosen by the scheduler before game pacing.
+    /// </summary>
+    public double SimulatedDelayMinutes { get; set; }
+
     public string NoticeState { get; set; } = "unseen";
 
     /// <summary>

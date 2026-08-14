@@ -48,6 +48,16 @@ public sealed class ConversationReplyRequest
     /// </summary>
     public string PlayerMessage { get; set; } = "";
 
+    /// <summary>
+    /// Optional observer-specific version of the current player turn.
+    /// Exact transcript truth remains stored separately; when supplied, the NPC
+    /// conversation context must not leak hidden/unheard words from that current turn.
+    /// </summary>
+    public string PerceivedPlayerMessage { get; set; } = "";
+
+    /// <summary>Optional provenance key linking the perception overlay to a scene event.</summary>
+    public string PerceptionSourceKey { get; set; } = "";
+
     public string Channel { get; set; } = "text";
     public string Location { get; set; } = "phone";
 }
