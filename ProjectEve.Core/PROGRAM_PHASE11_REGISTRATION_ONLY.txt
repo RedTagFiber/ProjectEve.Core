@@ -1,0 +1,22 @@
+PHASE 11 PROGRAM REGISTRATION ONLY
+
+In ProjectEve.PhoneOS/Program.cs add this BEFORE SharedScenePresenceCoordinator and GroupSceneConversationOrchestrator registrations:
+
+builder.Services.AddSingleton<ProjectEve.Core.Scene.ISceneSpatialInteractionService,
+    ProjectEve.Scene.SceneSpatialInteractionService>();
+
+Final order should be:
+
+builder.Services.AddSingleton<ProjectEve.Core.Scene.IScenePerceptionService,
+    ProjectEve.Scene.ScenePerceptionService>();
+
+builder.Services.AddSingleton<ProjectEve.Core.Scene.ISceneSpatialInteractionService,
+    ProjectEve.Scene.SceneSpatialInteractionService>();
+
+builder.Services.AddSingleton<ProjectEve.Core.Scene.ISharedScenePresenceCoordinator,
+    ProjectEve.Scene.SharedScenePresenceCoordinator>();
+
+builder.Services.AddSingleton<ProjectEve.Core.Scene.IGroupSceneConversationOrchestrator,
+    ProjectEve.Scene.GroupSceneConversationOrchestrator>();
+
+Do NOT replace your whole Program.cs.

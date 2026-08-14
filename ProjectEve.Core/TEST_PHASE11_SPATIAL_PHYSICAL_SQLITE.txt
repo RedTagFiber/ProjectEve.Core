@@ -1,0 +1,46 @@
+PHASE 11 MANUAL TEST
+(File intentionally ends in .txt so Visual Studio does not parse it as SQL Server.)
+
+TEST 1 — MOVE CLOSER
+ACTION: move closer to Eve
+Expected: distance drops by about 2 ft, never below 1 ft without active contact.
+
+TEST 2 — NPC DISTANCE CUE
+Ask Eve something tense. If her generated ACTION/BODY says she steps/back away/leans away, expected: real ScenePresence coordinates update and PRESENT distance changes.
+
+TEST 3 — HUG
+ACTION: hug Eve
+Expected: pending attempt, about 1 ft, NOT 0 ft yet.
+If Eve explicitly reciprocates -> PRESENT shows 0 ft.
+If Eve freezes/hesitates -> not 0 ft.
+If Eve steps back/pulls away -> distance increases.
+
+TEST 4 — KISS
+ACTION: kiss Eve
+Same pending/reciprocal/avoid rules as hug.
+
+TEST 5 — FIGHT SPACE
+ACTION: get in Adam's face
+Expected: about 1 ft.
+ACTION: move away from Adam
+Expected: +3 ft.
+ACTION: punch Adam
+Expected: striking-range attempt; transcript must NOT claim the punch landed.
+
+TEST 6 — WHISPER
+SAY: whisper: Don't tell Adam.
+Expected: GroupScene speech uses Phase 6 whisper hearing range.
+
+OPTIONAL SQLITE INSPECTION (SQLite tool):
+
+SELECT Id, SceneId, ActorCharacterKey, TargetCharacterKey, IntentKind, ContactKind, Status, PreviousDistanceFeet, NewDistanceFeet, OriginalText, ResolvedText, GameTime
+FROM SceneSpatialInteractionEvent
+ORDER BY Id DESC;
+
+SELECT SceneId, CharacterAKey, CharacterBKey, InitiatorCharacterKey, ContactKind, State, ReactionState, UpdatedGameTime
+FROM ScenePhysicalContact
+ORDER BY UpdatedGameTime DESC;
+
+SELECT SceneId, CharacterKey, DisplayName, XFeet, YFeet, FacingDegrees, IsActive
+FROM ScenePresence
+ORDER BY SceneId, CharacterKey;

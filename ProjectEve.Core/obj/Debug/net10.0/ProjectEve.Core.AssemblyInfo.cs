@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectEve.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29bc82753efd7ba274d77195c50f50598099621f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dff76785ed1d109dd4dd02b37230fa1189f6cb85")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectEve.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectEve.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
